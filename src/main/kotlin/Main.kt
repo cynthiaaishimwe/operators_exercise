@@ -33,12 +33,27 @@ fun main() {
     var name = "ada"
     var greetingsname = "helloada"
     println(greetings+name)
+    person("Mary")
+
 
     addition(12,3)
     difference(20,12)
     product(2,2)
     remainder(21,5)
-
+   var g= sum(6,8)
+    println(g)
+    var h= difference(10,5)
+    println(h)
+    var k =total(12,12,12,12)
+    println(k)
+    var r =remaining(21,2)
+    println(r)
+    var salutations="hello"
+    var names="Ada"
+    var salutationsnames = "hello Ada"
+    println(salutationsnames)
+    greetings("Ishimwe")
+  fact("life is good")
 
 }
 
@@ -59,4 +74,34 @@ fun product(numer3:Int,number4:Int){
     fun remainder(numb4:Int,numb5:Int){
         var remainder = (numb4 % numb5)
         println(remainder)
+}
+fun sum(number8:Int,number9:Int):Int {
+    var sum = number8 + number9
+    return sum
+
+}
+fun number(numb10:Int,num11:Int):Int {
+    var difference = numb10 - num11
+    return difference
+}
+fun total(num11:Int,num12:Int,num13:Int,num14:Int,):Int {
+    var total= num11+num12+num13+num14
+    return total
+
+}
+fun remaining(num15:Int,num16:Int,):Int{
+    var remaining= num15 % num16
+    return remaining
+}
+fun person(word:String){
+    println("Hello " + word)
+
+}
+fun greetings(greet:String){
+    println("hello " + greet)
+
+}
+fun fact(fact:String){
+    println (fact)
+
 }
